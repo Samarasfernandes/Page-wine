@@ -1,0 +1,71 @@
+#home{
+    display: flex;
+    min-height: calc(100vh - 91px);
+  }
+  
+  #cta{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    margin-top: 10%;
+  }
+  
+  #cta .title {
+    font-size: 3rem;
+    color: #1d1d1d;
+  }
+  #cta .title span {
+    color: var(--color-primary-3);
+  }
+  
+  
+  #cta .description {
+    font-size: 1.3rem;
+  }
+  
+  #banner{
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    width: 70%;
+  
+  }
+  #banner .gota{
+    margin-top:40px;
+    width: 80%;
+    height: fit-content;
+    transform: rotate(-39deg); 
+  }
+  #banner img{
+    
+    width: 80%;
+    height: fit-content;
+    
+  }
+  #banner .garrafa{
+    right: 300px;
+    position: absolute;
+    width: 12%;
+    height: fit-content;
+  }
+  .btn-cardapio{
+  text-decoration: none;
+  color: var(--color-primary-3);
+  }
+  
+  /*animação de recarregar a pagina*/
+.anim{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 0.7s linear forwards;
+  
+  }
+  @keyframes moveup{
+    100%{
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+  /*fim*/
+    

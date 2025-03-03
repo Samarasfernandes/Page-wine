@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+:root {
+    --color-primary-1: #fff;
+    --color-primary-2: #ffe8b4;
+    --color-primary-3: #a1251e;
+    --color-primary-4: #ffe100;
+    --color-primary-5: #ffcb45;
+    --color-primary-6: #e9a209;
+
+    --color-neutral-0: #fff;
+    --color-neutral-1: #1d1d1d;
+}
+
+* {
+  font-family: "Outfit", serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    background-color: var(--color-primary-1);
+
+  }
+  section{
+    padding: 100px 8%;
+  }
+
+
+
+
+

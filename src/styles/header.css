@@ -1,0 +1,32 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1.9rem 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background-color: var(--color-neutral-0);
+  }
+  
+  .logo {
+    font-size: 1.9rem;
+    color: var(--color-primary-3);
+    text-decoration: none;
+    font-weight: 620;
+  }
+  
+  .navbar a {
+    font-size: 1.15rem;
+    color: var(--color-primary-3);
+    text-decoration: none;
+    font-weight: 500;
+    padding: 1rem;
+   
+  }
+
+  #check {
+    display: none;
+  }
